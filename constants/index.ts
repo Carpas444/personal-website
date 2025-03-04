@@ -96,7 +96,7 @@ export const Projects = [
     title: "• Website pessoal",
     text: "Este projeto consiste na criação da minha página pessoal da internet, o meu portfólio. Para o efeito usei diversas ferramentas incluindo TailWind CSS, HTML, TypeScript, React, NextJs, entre outras. Foi o primeiro website do tipo que fiz e, a experiência foi muita boa. Segui alguns tutoriais e li alguma documentação que me tornou mais experiente nas diversas tecnologias utilizadas.",
     image: "/personalWebsite.png",
-    link: "https://github.com/Carpas444/"
+    link: "https://github.com/Carpas444/personal-website"
   },
 ];
 
