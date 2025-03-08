@@ -16,6 +16,7 @@ export default function Home() {
               Learn as if you were to live forever.
             </span>
           </q>
+            <br/>
             <i className="text text-white text-[20px] sm:text-[24px] md:text-[28px]"> Mahatma Gandhi </i>
           </h1>
 

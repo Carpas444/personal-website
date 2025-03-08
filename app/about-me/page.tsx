@@ -8,13 +8,12 @@ import {Autoplay} from 'swiper/modules'
 
 const Page = () => {
     return (
-      <div className="w-screen">
         <div
           style={{ backgroundImage: "url(/background.png)" }}
-          className="gap-[5%] md:gap-[10%] h-screen w-screen flex flex-col items-center justify-center bg-cover bg-center pb-[5%] md:pb-[2%] mt-20 md:mt-0 overflow-y-auto"
+          className="gap-[5%] md:gap-[8%] h-screen w-screen flex flex-col items-center justify-center bg-cover bg-center pb-[5%] md:pb-[2%] mt-20 md:mt-4 overflow-y-auto"
         >
           {/* About Me Section */}
-          <div className="flex flex-col gap-5 md:gap-[10px] max-w-[90%] md:max-w-[50vw] text-center items-center pt-12 md:mt-0">
+          <div className="flex flex-col gap-5 md:gap-[10px] max-w-[90%] md:max-w-[50vw] text-center items-center mt-24 md:mt-[220px] 2xl:mt-0">
             <h1 className="font-semibold text-white text-3xl sm:text-5xl md:text-[3vw]">
               Sobre mim
             </h1>
@@ -44,7 +43,7 @@ const Page = () => {
           </div>
   
           {/* Skills & Technologies Section */}
-          <div className="flex flex-col gap-5 md:gap-[40px] max-w-[90%] md:max-w-[50vw] text-center items-center mb-[160px] md:mb-0">
+          <div className="flex flex-col gap-5 md:gap-[40px] max-w-[90%] md:max-w-[50vw] text-center items-center mb-[160px] md:mb-12">
             <div className="flex flex-col items-center gap-1">
               <h1 className="font-semibold text-white text-3xl sm:text-5xl md:text-[3vw]">
                 Competências{" "}
@@ -66,7 +65,7 @@ const Page = () => {
               autoplay={{ delay: 0, disableOnInteraction: false }}
               speed={5000}
               modules={[Autoplay]}
-              className="max-w-[90%] md:max-w-[68%]"
+              className="max-w-[90%] md:max-w-[68%] pb-[5%]"
               breakpoints={{
                 640: { slidesPerView: 3 }, // For screens ≥ 640px
                 1024: { slidesPerView: 5 }, // For screens ≥ 1024px
@@ -85,7 +84,6 @@ const Page = () => {
             </Swiper>
           </div>
         </div>
-      </div>
     );
   };
   

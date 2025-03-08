@@ -3,7 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <form>
-        <h2 className='text-3xl md:text-5xl font-bold mb-5 text-white'>Contact Me</h2>
+        <h2 className='text-3xl md:text-5xl font-bold mb-5 text-white'>Contacte-me</h2>
         <div className='mb-3 md:text-xl text-white'>
             Email: afonsocarpinteiro@gmail.com
         </div>
