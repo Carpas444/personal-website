@@ -12,14 +12,13 @@ const Page = () => {
           style={{ backgroundImage: "url(/background.png)" }}
           className="gap-[5%] md:gap-[8%] h-screen w-screen flex flex-col items-center justify-center bg-cover bg-center pb-[5%] md:pb-[2%] mt-20 md:mt-4 overflow-y-auto"
         >
-          {/* About Me Section */}
           <div className="flex flex-col gap-5 md:gap-[10px] max-w-[90%] md:max-w-[50vw] text-center items-center mt-24 md:mt-[220px] 2xl:mt-0">
             <h1 className="font-semibold text-white text-3xl sm:text-5xl md:text-[3vw]">
               Sobre mim
             </h1>
             <p className="text-gray-300 text-sm sm:text-lg md:text-[1.23vw]">
-              O meu nome é Afonso, frequento o 2º ano da Licenciatura em Engenharia
-              Informática na Universidade do Minho.
+              O meu nome é Afonso e frequento, neste momento, o 2º ano da Licenciatura 
+              em Engenharia Informática na Universidade do Minho.
               Sou de Braga e desde muito pequeno que tenho um particular interesse
               em computadores e informática no geral. Interesso-me pelo desenvolvimento
               de sites tal como este, especialmente na parte de front-end, embora 
@@ -42,7 +41,6 @@ const Page = () => {
             </p>
           </div>
   
-          {/* Skills & Technologies Section */}
           <div className="flex flex-col gap-5 md:gap-[40px] max-w-[90%] md:max-w-[50vw] text-center items-center mb-[160px] md:mb-12">
             <div className="flex flex-col items-center gap-1">
               <h1 className="font-semibold text-white text-3xl sm:text-5xl md:text-[3vw]">
@@ -58,7 +56,6 @@ const Page = () => {
               </p>
             </div>
   
-            {/* Swiper Carousel */}
             <Swiper
               slidesPerView={3} // Default for small screens
               loop={true}

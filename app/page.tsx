@@ -10,14 +10,14 @@ export default function Home() {
         <div className="pl-10 sm:pl-20 md:pl-40 pb-40 sm:pb-56 md:pb-20 pt-20 flex flex-col gap-5 z-[10] max-w-[90%] md:max-w-[48%]">
           {/* Responsive Heading */}
           <h1 className="text-3xl sm:text-5xl md:text-[2.7vw] text-white font-semibold">
-          <q>Live as if you were to die tomorrow.
+          <q>Não tenhamos pressa, 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400">
               {" "}
-              Learn as if you were to live forever.
+              mas não percamos tempo.
             </span>
           </q>
             <br/>
-            <i className="text text-white text-[20px] sm:text-[24px] md:text-[28px]"> Mahatma Gandhi </i>
+            <i className="text text-white text-[20px] sm:text-[24px] md:text-[28px]"> José Saramago </i>
           </h1>
 
           <p className="text-sm text-gray-200 block md:hidden">
