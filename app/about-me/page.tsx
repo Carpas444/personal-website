@@ -17,7 +17,7 @@ const Page = () => {
               Sobre mim
             </h1>
             <p className="text-gray-300 text-sm sm:text-lg md:text-[1.23vw]">
-              O meu nome é Afonso e frequento, neste momento, o 2º ano da Licenciatura 
+              O meu nome é Afonso e frequento, neste momento, o 3º ano da Licenciatura 
               em Engenharia Informática na Universidade do Minho.
               Sou de Braga e desde muito pequeno que tenho um particular interesse
               em computadores e informática no geral. Interesso-me pelo desenvolvimento
